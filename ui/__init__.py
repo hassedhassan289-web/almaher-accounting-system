@@ -1,4 +1,8 @@
-# -*- coding: utf-8 -*-
 """
 حزمة واجهات المستخدم
+UI Package
 """
+
+from .main_window import MainWindow
+
+__all__ = ['MainWindow']
